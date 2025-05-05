@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - BizConsult</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4f8;
+      color: #333;
+    }
+
+    nav {
+      background: linear-gradient(90deg, #002244, #005599);
+      padding: 1.2rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    nav h1 {
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00e0ff;
+    }
+
+    section {
+      padding: 60px 10%;
+      background: white;
+      border-radius: 12px;
+      margin: 40px auto;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+      max-width: 1200px;
+    }
+
+    section h2 {
+      font-size: 2.8rem;
+      color: #002244;
+      margin-bottom: 20px;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      margin: 25px 0;
+    }
+
+    section h3 {
+      color: #004080;
+      margin-top: 30px;
+      font-size: 1.5rem;
+    }
+
+    section ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+
+    section ul li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    section ul li::before {
+      content: \"✔\";
+      position: absolute;
+      left: 0;
+      color: #00b894;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      section {
+        padding: 40px 5%;
+      }
+
+      section h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>BizConsult</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>About BizConsult</h2>
+    <img src="images/about.jpg" alt="Our Team">
+
+    <p>BizConsult is a top-tier business consultancy firm, driven by innovation and expertise. With over 10 years of experience, we empower startups and established companies to achieve exceptional results. From strategy to execution, our approach is personalized and performance-focused.</p>
+
+    <h3>Our Mission</h3>
+    <p>To empower businesses through innovative strategies, data-driven decisions, and lasting partnerships that lead to sustainable growth.</p>
+
+    <h3>Our Vision</h3>
+    <p>To be the leading global consulting firm renowned for our integrity, impact, and unmatched business solutions.</p>
+
+    <h3>Why Choose Us?</h3>
+    <ul>
+      <li>200+ successful client transformations</li>
+      <li>Top consultants in strategy, marketing & operations</li>
+      <li>End-to-end scalable business solutions</li>
+      <li>Dedicated 24/7 client support</li>
+    </ul>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - BizConsult</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <h1>BizConsult</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>Contact Us</h2>
+    <p>We're here to answer your questions and support your business needs.</p>
+  </header>
+
+  <section style="display: flex; flex-wrap: wrap; gap: 30px; padding: 40px;">
+
+    <!-- Left Section: Image -->
+    <div style="flex: 1; min-width: 300px;">
+      <img src="images/contact.jpg" alt="Contact team" style="width: 100%; border-radius: 10px;">
+    </div>
+
+    <!-- Right Section: Form and Info -->
+    <div style="flex: 1; min-width: 300px;">
+      <h3>Send us a Message</h3>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 8px;"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px;"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 8px;"></textarea><br><br>
+
+        <button type="submit" style="padding: 10px 20px; background-color: #1c2a4d; color: white; border: none; border-radius: 5px;">Send</button>
+      </form>
+
+      <br>
+      <h3>Our Office</h3>
+      <p><strong>BizConsult HQ</strong><br>
+      501 Business Tower, MG Road,<br>
+      Mumbai, Maharashtra, India</p>
+
+      <p><strong>Email:</strong> contact@bizconsult.com<br>
+      <strong>Phone:</strong> +91 98765 43210</p>
+    </div>
+  </section>
+
+  <!-- Google Map -->
+  <section style="padding: 0 40px 40px;">
+    <h3>Find Us on the Map</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609947773!2d72.74109920819523!3d19.082197839168364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63d60aa4ab7%3A0x9823134c2acb77f0!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1714810122270!5m2!1sen!2sin"
+      width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BizConsult | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

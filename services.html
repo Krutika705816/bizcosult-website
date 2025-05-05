@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Our Services - BizConsult</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    nav {
+      background: linear-gradient(90deg, #002244, #005599);
+      padding: 1.2rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    nav h1 {
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #00e0ff;
+    }
+
+    section {
+      padding: 60px 10%;
+      background-color: white;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #002244;
+      margin-bottom: 40px;
+    }
+
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: space-between;
+    }
+
+    .service-card {
+      flex: 1 1 30%;
+      background: #f0f4f8;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+      color: #003366;
+      margin-top: 0;
+    }
+
+    .service-card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .services-container {
+        flex-direction: column;
+      }
+
+      .service-card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>BizConsult</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services-container">
+
+      <div class="service-card">
+        <img src="images/service1.jpg" alt="Business Strategy">
+        <h3>Business Strategy</h3>
+        <p>We craft tailored strategies to help businesses grow, adapt to market changes, and stay ahead of the competition.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/service2.jpg" alt="Financial Consulting">
+        <h3>Financial Consulting</h3>
+        <p>Our financial experts guide you with budgeting, forecasting, investment planning, and risk management strategies.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/service3.jpg" alt="Digital Marketing">
+        <h3>Digital Marketing</h3>
+        <p>We help you build your brand online through SEO, paid ads, email campaigns, and social media engagement.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/service4.jpg" alt="Market Research">
+        <h3>Market Research</h3>
+        <p>We provide in-depth market insights to support your decision-making and uncover growth opportunities.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/service5.jpg" alt="HR Consulting">
+        <h3>HR & Talent Solutions</h3>
+        <p>We assist in hiring strategies, employee retention plans, and organizational development for peak performance.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/service6.jpg" alt="IT & Automation">
+        <h3>IT & Process Automation</h3>
+        <p>Upgrade your workflow with automation, CRMs, ERP systems, and digital transformation strategies.</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
